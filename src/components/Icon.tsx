@@ -5,7 +5,7 @@ type Name =
   | "github" | "linkedin" | "instagram" | "facebook"
   | "html" | "css" | "javascript" | "bootstrap" | "devices"
   | "vue" | "vuetify" | "nextjs" | "react" | "database" | "nodejs"
-  | "vscode" | "figma" | "growth" | "vercel";
+  | "vscode" | "figma" | "growth" | "vercel" | "n8n";
 
 const STROKE: Partial<Record<Name, React.ReactNode>> = {
   html: <><path d="M4 3h16l-1.5 16L12 21l-6.5-2z" /><path d="M15.5 7h-7l.5 5h6l-.5 4-2.5 1-2.5-1-.2-2" /></>,
@@ -18,6 +18,7 @@ const STROKE: Partial<Record<Name, React.ReactNode>> = {
   database: <><ellipse cx="12" cy="5" rx="8" ry="3" /><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3" /></>,
   nodejs: <><path d="m12 2 9 5v10l-9 5-9-5V7z" /><path d="M8 16V8l8 8V8" /></>,
   figma: <><path d="M12 9H8.5a3.5 3.5 0 0 1 0-7h7a3.5 3.5 0 0 1 0 7H12v10.5a3.5 3.5 0 1 1-3.5-3.5H12M12 2v7H8.5a3.5 3.5 0 0 0 0 7" /><circle cx="15.5" cy="12.5" r="3.5" /></>,
+  n8n: <><circle cx="4" cy="12" r="2" /><circle cx="12" cy="12" r="2" /><circle cx="20" cy="6" r="2" /><circle cx="20" cy="18" r="2" /><path d="M6 12h4m4 0c2 0 2-6 4-6m-4 6c2 0 2 6 4 6" /></>,
   growth: <><path d="M5 20V10m-3 3 3-3 3 3M12 20V6m-3 3 3-3 3 3M19 20V2m-3 3 3-3 3 3" /></>,
   user: <><circle cx="12" cy="8" r="4" /><path d="M4 20c0-4 3.6-6 8-6s8 2 8 6" /></>,
   briefcase: <><rect x="2" y="7" width="20" height="13" rx="2" /><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" /></>,

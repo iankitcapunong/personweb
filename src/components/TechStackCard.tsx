@@ -10,7 +10,6 @@ const techIcons: Record<string, {
   CSS3: { name: "css", color: "text-blue-600 dark:text-blue-400" },
   JavaScript: { name: "javascript", color: "text-yellow-600 dark:text-yellow-300" },
   Bootstrap: { name: "bootstrap", color: "text-violet-600 dark:text-violet-400" },
-  "Responsive Web Design": { name: "devices", color: "text-teal-600 dark:text-teal-400" },
   Vue: { name: "vue", color: "text-emerald-600 dark:text-emerald-400" },
   Vuetify: { name: "vuetify", color: "text-blue-600 dark:text-blue-400" },
   "Next.js": { name: "nextjs", color: "text-fg" },
@@ -22,6 +21,7 @@ const techIcons: Record<string, {
   Figma: { name: "figma", color: "text-rose-600 dark:text-rose-400" },
   GoHighLevel: { name: "growth", color: "text-orange-600 dark:text-orange-400" },
   Vercel: { name: "vercel", color: "text-fg" },
+  n8n: { name: "n8n", color: "text-pink-600 dark:text-pink-400" },
 };
 
 export default function TechStackCard() {

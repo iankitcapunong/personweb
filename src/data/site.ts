@@ -38,7 +38,7 @@ export const experience = [
 export const techStack = [
   {
     group: "Frontend Development",
-    items: ["HTML5", "CSS3", "JavaScript", "Responsive Web Design"],
+    items: ["HTML5", "CSS3", "JavaScript"],
   },
   {
     group: "Frameworks & Libraries",
@@ -46,7 +46,8 @@ export const techStack = [
   },
   { group: "Backend (Basic Knowledge)", items: ["Node.js", "PostgreSQL"] },
   { group: "Tools & Workflow", items: ["Git & GitHub", "VS Code", "Figma"] },
-  { group: "Platforms & Deployment", items: ["GoHighLevel", "Vercel"] },
+  { group: "Automation", items: ["n8n", "GoHighLevel"] },
+  { group: "Deployment", items: ["Vercel"] },
 ];
 
 /** Rows in the Certifications card. `image` opens in a modal when clicked. */
