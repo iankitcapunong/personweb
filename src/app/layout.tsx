@@ -28,10 +28,7 @@ export const viewport: Viewport = {
   ],
 };
 
-/**
- * Applies the saved theme before first paint so the page never flashes
- * the wrong background.
- */
+
 const themeScript = `
 (function () {
   try {
@@ -51,7 +48,6 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
-        {/* Without JS the scroll-reveal never fires, so show everything. */}
         <noscript>
           <style>{`.reveal{opacity:1 !important;transform:none !important}`}</style>
         </noscript>

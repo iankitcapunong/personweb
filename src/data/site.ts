@@ -38,14 +38,15 @@ export const experience = [
 export const techStack = [
   {
     group: "Frontend Development",
-    items: ["HTML5", "CSS3", "JavaScript", "Bootstrap", "Responsive Web Design"],
+    items: ["HTML5", "CSS3", "JavaScript", "Responsive Web Design"],
   },
-  { group: "Frameworks & Libraries", items: ["Vue", "Vuetify", "Next.js", "React"] },
-  { group: "Backend (Basic Knowledge)", items: ["PostgreSQL", "Node.js"] },
   {
-    group: "Tools & Workflow",
-    items: ["Git & GitHub", "VS Code", "Figma", "GoHighLevel", "Vercel"],
+    group: "Frameworks & Libraries",
+    items: ["React", "Next.js", "Vue", "Vuetify", "Bootstrap"],
   },
+  { group: "Backend (Basic Knowledge)", items: ["Node.js", "PostgreSQL"] },
+  { group: "Tools & Workflow", items: ["Git & GitHub", "VS Code", "Figma"] },
+  { group: "Platforms & Deployment", items: ["GoHighLevel", "Vercel"] },
 ];
 
 /** Rows in the Certifications card. `image` opens in a modal when clicked. */
