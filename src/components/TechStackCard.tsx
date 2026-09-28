@@ -21,6 +21,7 @@ const techIcons: Record<string, {
   Figma: { name: "figma", color: "text-rose-600 dark:text-rose-400" },
   GoHighLevel: { name: "growth", color: "text-orange-600 dark:text-orange-400" },
   Vercel: { name: "vercel", color: "text-fg" },
+  Hostinger: { name: "hostinger", color: "text-violet-600 dark:text-violet-400" },
   n8n: { name: "n8n", color: "text-pink-600 dark:text-pink-400" },
 };
 

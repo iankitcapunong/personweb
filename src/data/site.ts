@@ -47,12 +47,12 @@ export const techStack = [
   { group: "Backend (Basic Knowledge)", items: ["Node.js", "PostgreSQL"] },
   { group: "Tools & Workflow", items: ["Git & GitHub", "VS Code", "Figma"] },
   { group: "Automation", items: ["n8n", "GoHighLevel"] },
-  { group: "Deployment", items: ["Vercel"] },
+  { group: "Deployment", items: ["Vercel", "Hostinger"] },
 ];
 
 /** Rows in the Certifications card. `image` opens in a modal when clicked. */
 export const certifications = [
-  { name: "Web Development Certificate", issuer: "Coursera", year: "2024", image: "/cert1.png" },
+  { name: "HubSpot Certificate", issuer: "Coursera", year: "2024", image: "/cert1.png" },
   { name: "HTML Essentials", issuer: "Certification", year: "2023", image: "/html.jpg" },
   { name: "CSS Essentials", issuer: "Certification", year: "2023", image: "/css.jpg" },
   { name: "JavaScript Essentials", issuer: "Certification", year: "2023", image: "/javascript.jpg" },

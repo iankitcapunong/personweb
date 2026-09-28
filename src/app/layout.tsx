@@ -3,7 +3,7 @@ import { site } from "@/data/site";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: `${site.name} — Web Developer & UI/UX Designer`,
+  title: "IKC",
   description: `${site.role} based in ${site.location}.`,
   keywords: [
     "Ian Kit Capunong",
