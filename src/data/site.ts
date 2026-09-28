@@ -2,7 +2,7 @@ export const site = {
   name: "Ian Kit Capunong",
   short: "Ian Kit.",
   /** Shown next to the name, like a verified tick. Set to false to hide. */
-  verified: true,
+  verified: false,
   photo: "/Iankit.jpg",
   location: "Hinatuan, Surigao del Sur, Philippines",
   role: "Web Developer & UI/UX Designer",
@@ -10,7 +10,7 @@ export const site = {
   resumeUrl: "",
   email: "yayan.cap12@gmail.com",
   about: [
-    "I am a web developer and UI/UX designer creating responsive, user-focused websites with Vue, Next.js and GoHighLevel. I manage projects from design to deployment, with a focus on usability and performance. Available for freelance and collaborative projects.",
+    "I build funnels, booking systems and websites for coaches and small businesses, from the first Figma mockup to the live site. I started out in GoHighLevel and now build custom sites and tools in Next.js and Vue, with n8n handling the automation behind them. Recent work includes a webinar funnel for a fitness coaching brand and an AI tool that turns a client interview into ready-to-use marketing copy. I'm based in the Philippines and open to freelance work.",
   ],
   socials: [
     { label: "LinkedIn", url: "https://www.linkedin.com/in/ian-kit-capunong-80399a351/" },
@@ -24,13 +24,13 @@ export const site = {
 export const experience = [
   {
     title: "GoHighLevel Developer",
-    org: "Built landing pages, sales funnels and websites with lead capture forms, booking systems and chat widgets.",
+    org: "Built client funnels and sites inside GoHighLevel, wiring lead capture forms into the CRM and setting up calendar bookings and chat widgets so leads could book without back-and-forth.",
     year: "2023 — 2024",
   },
   {
     title: "Freelance Web Developer",
-    org: "Responsive client websites and web apps, handled from design through deployment.",
-    year: "2023 — Present",
+    org: "Designed and shipped a webinar funnel and scholarship application for Better Body Academy, a site for healthcare consultancy The Joxel Group, and four design variants for a chauffeur service. Also built OnboardLayer, an AI client-onboarding tool that generates email copy, ad copy and landing pages.",
+    year: "2024 — Present",
   },
 ];
 

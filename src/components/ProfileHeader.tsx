@@ -29,8 +29,6 @@ export default function ProfileHeader() {
           {site.location}
         </p>
 
-        <p className="mt-2 text-sm font-medium sm:text-[15px]">{site.role}</p>
-
         {site.resumeUrl && (
           <div className="mt-6 flex flex-wrap gap-3">
             <a
